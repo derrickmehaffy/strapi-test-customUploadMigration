@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/custom",
+      "handler": "custom.createData",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/custom",
+      "handler": "custom.getData",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
